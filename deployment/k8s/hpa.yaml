@@ -15,7 +15,7 @@ spec:
     kind: Deployment
     name: #{service}#-deployment
   minReplicas: #{ms-replicas}#
-  maxReplicas: #{ms-max-replicas}#
+  maxReplicas: 20
   targetCPUUtilizationPercentage: #{target-cpu}#
 status:
   currentReplicas: #{ms-replicas}#
