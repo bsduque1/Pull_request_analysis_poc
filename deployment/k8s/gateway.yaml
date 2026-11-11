@@ -47,7 +47,7 @@ spec:
         - destination:
             host: #{service}#
             port:
-              number: 9568
+              number: 9850
     - match:
         - uri:
             prefix: "#{path-prefix}#"
